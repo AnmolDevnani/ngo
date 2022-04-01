@@ -7,10 +7,10 @@ if(!isset($_SESSION['email']))
 else
 {
 
-    $host = "sql6.freemysqlhosting.net";
-    $username = "sql6482257";
-    $pass = "uC52sG7Hgu";
-    $dbname = "sql6482257";
+    $host = "127.0.0.1";
+    $username = "root";
+    $pass = "FUqefFROPH4w";
+    $dbname = "ngo";
 
     $conn = mysqli_connect($host,$username,$pass,$dbname);
 
